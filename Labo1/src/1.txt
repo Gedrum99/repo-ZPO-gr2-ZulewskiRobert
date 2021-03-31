@@ -1,0 +1,17 @@
+Czym rózni sie wzorzec Strategia od zwykłej implementacji interfejsu? Jakie sa wady i
+zalety tego wzorca?
+
+Wzorzec Strategia różni się od zwykłej implementacji interfejsu, tym że pozwala na implementację
+kilku różnych algorytmów rozwiązujących dany problem. Jest on zestawem wielu klas, które są implementacją
+innych algorytmów rozwiązujących dane zadanie, ułatwia on wykorzystanie wielu sposobów rozwiązania problemu
+podczas działania programu.
+
+Zalety:
+- algorytmy umieszczone w oddzielnych klasach, pozwala to zachować jako taki porządek w kodzie
+- rozwiązanie problemu na wiele sposobów,
+- nie potrzebne rozbudowane wyrażenia warunkowe,
+
+
+Wady:
+- duża ilość obiektów,
+- zwiększony koszt zasobów
