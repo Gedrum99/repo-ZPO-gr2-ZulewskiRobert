@@ -1,0 +1,9 @@
+Najczęstsze użycie wzorca obserawtor
+
+Wzorca obserwator używamy najczęściej, jeśli mamy wiele obiektów połączonych ze sobą relacją jeden do wielu,
+wśród tych obiektów jest obiekt obserwowany i obiekty obserwatorzy, w momencie zmiany obiektu obserwowanego
+, obiekty obserwujące zostają o tym powiadomione i są odpowiednio aktualizowane lub wykonują określone czynności,
+zależnie od stanu obiektu obserwowanego.
+
+Inaczej mówiąc wzorca obserwator używamy, jeśli chcemy aby w naszym programie zmiana w jednym obiekcie była wyłapana
+przez inne powiązane z nim obiekty, aby następnie te obiekty wykonały jakieś działanie/uległy jakiejś zmianie

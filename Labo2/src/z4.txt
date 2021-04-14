@@ -1,0 +1,5 @@
+Moja propozycja wygląda tak, że przed wysłaniem reklamy po wylosowaniu klienta oraz tej reklamy,przy pomocy interfejsu sprawdzalibyśmy dane klienta, takie
+jak kraj w którym się znajduje/pochodzi, przypisalibyśmy do tego kraju konkretny użyawny tam język, a następnie wybraną reklamę sprawdzilibyśmy przy pomocy drugiego interfejsu,
+jak przeznaczona kwota na reklamę i czy reklamodawca ma jakiś preferowany sposób wysłania swojej reklamy do klienta, gdyby nie było takie sposobu założylibyśmy jakieś progi co
+do rodzaju wyświetlenia reklamy, np od takiej do takiej kwoty wiadomość sms od jakiejś innej do innej wiadomośc e-mail.
+Po tych wszystkich krokach wysyłalibyśmy reklamę do klienta, może trwałoby to trochę dłużej niż zwykle, ale byłoby moim zdaniem trochę skuteczniejsze, a poza tym klient i tak się nie spodziewa
