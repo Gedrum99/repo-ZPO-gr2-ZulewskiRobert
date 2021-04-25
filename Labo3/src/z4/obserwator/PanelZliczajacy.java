@@ -11,12 +11,18 @@ public class PanelZliczajacy extends JPanel implements Obserwator{
         JLabel nowy=new JLabel();
         setBackground( Color.WHITE );
         nowy.setText( "Brak punktów" );
-        setBounds( 500,0,300,100 );
+        setBounds( 600,0,300,50 );
         nowy.setFont(new Font("Comic Sans", Font.PLAIN, 20));
-        nowy.setBounds( 600,280,150,100 );
+        setPreferredSize( new Dimension(150,50 ));
+
         licznik=nowy;
         add(licznik);
         setVisible( true );
+    }
+
+    @Override
+    protected void paintComponent (Graphics g) {
+        super.paintComponent( g );
     }
 
     @Override

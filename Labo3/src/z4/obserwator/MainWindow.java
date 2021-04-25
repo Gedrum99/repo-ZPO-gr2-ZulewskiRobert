@@ -11,7 +11,10 @@ public class MainWindow extends JPanel implements Podmiot{
 
     public MainWindow(){
         super();
-        setBounds( 0,0,500,600 );
+        setBounds( 0,0,600,600 );
+        setPreferredSize( new Dimension(600,600 ));
+
+        setBackground( Color.black );
     }
 
     public void dodajPkt(Punkt p){
@@ -20,7 +23,8 @@ public class MainWindow extends JPanel implements Podmiot{
     }
 
     @Override
-    public void paint (Graphics g) {
+    protected void paintComponent (Graphics g) {
+        super.paintComponent( g );
         for (Punkt p:punkty)
         {
             p.draw( g );
