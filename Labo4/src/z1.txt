@@ -1,0 +1,4 @@
+Najczęstsze użycie wzorca dekorator
+
+Wzorca dekorator najczęściej używamy, gdy chcemy pewien obiekt "zawinąć" w dekoratory o tej samej klasie,
+co wcześniej wspomniany obiekt, lecz chcemy mieć dostęp do większej funkcjonalności niż oferuje nam dziedziczenie.
