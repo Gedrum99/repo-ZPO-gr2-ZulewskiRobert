@@ -1,0 +1,11 @@
+Fasada:
+Zapewnia interfejs nadrzędny dla zestawu innych interfejsów określonego podsystemu,
+przez co korzystanie z całego podsystemu staje się łatwiejsze.
+
+Adapter:
+Pozwala klasom, które nie mogły wcześniej ze sobą współpracować na współpracę,
+poprzez konwersje interfejsu jednej klasy do postaci innego interfejsu
+
+Różnica:
+Fasada i Adapter różnią się sposobem użycia interfejsów innych klas, jeden z wzorców unifikuje je pod swoim interfejsem, drugi
+"przebiera" interfejs jednej klasy w interfejs drugiej klasy
